@@ -2,6 +2,8 @@
  * @param {string[]} strs
  * @return {string}
  */
+
+// 构建字典树法，可扩展性高，但这道题可以有更简单的玩法
 var longestCommonPrefix = function (strs) {
   let len = strs.length;
   if (!strs.length) {
@@ -34,4 +36,29 @@ var longestCommonPrefix = function (strs) {
     }
   }
   return maxWord;
+};
+
+// 解法2
+var longestCommonPrefix = function (strs) {
+  if (!strs.length) {
+    return "";
+  }
+  let len = strs[0].length;
+  let result = strs[0].slice(0, len);
+  let i = 1,
+    j = 0;
+  while (i < strs.length) {
+    j = 0;
+    len = Math.min(strs[i].length, result.length);
+    while (j < len) {
+      if (strs[i][j] !== result[j]) {
+        break;
+      }
+      j++;
+    }
+    i++;
+    result = result.slice(0, j);
+  }
+
+  return result;
 };
