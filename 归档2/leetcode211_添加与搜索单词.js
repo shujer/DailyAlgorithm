@@ -36,17 +36,13 @@ WordDictionary.prototype.search = function (word) {
       if (!node[c]) {
         if (c === ".") {
           for (let p in node) {
-            if (p && p !== "END") {
-              let isMatch = _search(word.slice(i + 1), node[p]);
-              if (isMatch) {
-                return true;
-              }
+            if (!p || p === "END") continue;
+            if (_search(word.slice(i + 1), node[p])) {
+              return true;
             }
           }
-          return false;
-        } else {
-          return false;
         }
+        return false;
       }
       node = node[c];
     }
