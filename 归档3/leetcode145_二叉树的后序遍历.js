@@ -2,8 +2,8 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-// 递归解法
-var preorderTraversal = function (root) {
+// 递归写法
+var postorderTraversal = function (root) {
   let results = [];
   traversal(root);
   return results;
@@ -11,13 +11,14 @@ var preorderTraversal = function (root) {
     if (!root) {
       return;
     }
-    results.push(root.val);
     traversal(root.left);
     traversal(root.right);
+    results.push(root.val);
   }
 };
-// 非递归解法
-var preorderTraversal = function (root) {
+
+// 非递归写法
+var postorderTraversal = function (root) {
   if (!root) {
     return [];
   }
@@ -25,13 +26,10 @@ var preorderTraversal = function (root) {
   let stack = [root];
   while (stack.length) {
     let node = stack.pop();
-    results.push(node.val);
-    if (node.right) {
-      stack.push(node.right);
-    }
-    if (node.left) {
-      stack.push(node.left);
-    }
+    results.unshift(node.val);
+    node.left && stack.push(node.left);
+    node.right && stack.push(node.right);
   }
+
   return results;
 };
