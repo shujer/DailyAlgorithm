@@ -29,3 +29,11 @@
 - leetcode94
 - leetcode144
 - leetcode145
+
+### 数字组合问题
+
+- [LCP 18. 早餐组合](https://leetcode-cn.com/problems/2vYnGI/solution/)
+- leetcode39
+- leetcode40
+- leetcode77
+- leetcode216
