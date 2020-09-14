@@ -1,40 +1,19 @@
 # DailyAlgorithm
 
-日常的算法学习记录
+日常的算法学习记录（count: 24）
 
-### 广度优先搜索 & 深度优先搜索
+### <u>[广度优先搜索 & 深度优先搜索](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A31)</u>
 
-- leetcode17
-- leetcode22
-- leetcode51
-- leetcode52
-- leetcode79
-- leetcode102
-- leetcode103
-- leetcode104
-- leetcode107
-- leetcode111
-- leetcode199
-- leetccode212
-- leetcode542
+17、22、51、79、102、103、104、107、111、199、212、542
 
-### 字符串相关
+### <u>[字符串相关](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A32)</u>
 
-- leetcode14
-- leetcode28
-- leetcode208
-- leetcode211
+14、28、208、211
 
-### 二叉树相关
+### <u>[二叉树相关](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A33)</u>
 
-- leetcode94
-- leetcode144
-- leetcode145
+94、144、145
 
-### 数字组合问题
+### <u>[组合问题](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A34)</u>
 
-- [LCP 18. 早餐组合](https://leetcode-cn.com/problems/2vYnGI/solution/)
-- leetcode39
-- leetcode40
-- leetcode77
-- leetcode216
+LCP 18、39、40、77、216
