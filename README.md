@@ -1,6 +1,6 @@
 # DailyAlgorithm
 
-日常的算法学习记录（count: 24）
+日常的算法学习记录（count: 25）
 
 ### <u>[广度优先搜索 & 深度优先搜索](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A31)</u>
 
@@ -12,7 +12,7 @@
 
 ### <u>[二叉树相关](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A33)</u>
 
-94、144、145
+94、144、145、226
 
 ### <u>[组合问题](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A34)</u>
 
