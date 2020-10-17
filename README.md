@@ -1,25 +1,31 @@
 # DailyAlgorithm
 
-日常的算法学习记录（count: 27）
+日常的算法学习记录
 
-### <u>[广度优先搜索 & 深度优先搜索](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A31)</u>
+### 广度优先搜索 & 深度优先搜索
 
-17、22、51、79、102、103、104、107、111、199、212、542
+17、22、51、79、212、542
 
-### <u>[字符串相关](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A32)</u>
+### 字符串相关
 
 14、28、208、211
 
-### <u>[二叉树相关](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A33)</u>
+### 二叉树相关
 
-94、144、145、226、404
+94、102、103、104、107、111、144、145、199、226、404、1609
 
-### <u>[组合问题](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A34)</u>
+### 回溯组合问题
 
 LCP 18、39、40、77、216
 
-### <u>[Map 和 Set 的相关问题](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A35)</u>
+### Map、Set 相关
 
 350
 
-<!-- ### <u>[双指针问题](https://github.com/shujer/DailyAlgorithm/tree/master/%E5%BD%92%E6%A1%A36)</u> -->
+### 栈、队列相关
+
+20、71、150、155、224、227、239
+
+
+### 并查集
+128、547、684、990、1319
