@@ -19,12 +19,11 @@ var calculate = function (s) {
     } else if (lastOp === "*") {
       vals.push(vals.pop() * num);
     } else if (lastOp === "/") {
-      let val = vals.pop();
-      let md = val % num;
-      vals.push((val - md) / num);
+      vals.push(~~(vals.pop() / num));
     }
     lastOp = s[i];
     num = 0;
   }
   return vals.reduce((sum, n) => sum + n, 0);
 };
+calculate("3+2*2");

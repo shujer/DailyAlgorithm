@@ -22,9 +22,7 @@ var calculate = function (s) {
     } else if (lastOp === "*") {
       vals.push(vals.pop() * num);
     } else if (lastOp === "/") {
-      let val = vals.pop();
-      let md = val % num;
-      vals.push((val - md) / num);// ~~(val / num)
+      vals.push(~~(vals.pop() / num));
     }
     if (s[i] === ")") {
       let op = vals.pop();
