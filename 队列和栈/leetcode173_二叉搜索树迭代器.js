@@ -58,7 +58,7 @@ var BSTIterator = function (root) {
     while (stack.length || root) {
       if (root) {
         stack.push(root);
-        root = root.left; 
+        root = root.left;
       } else {
         root = stack.pop();
         yield root.val;
