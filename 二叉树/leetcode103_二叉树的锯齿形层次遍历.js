@@ -9,12 +9,10 @@ var zigzagLevelOrder = function (root) {
   }
   let queue = [root],
     isLeft = true,
-    level = [],
-    rest = [],
     result = [];
   while (queue.length) {
-    level = [];
-    rest = [];
+    let level = [];
+    let rest = [];
     while (queue.length) {
       let peek = queue.shift();
       if (peek) {
