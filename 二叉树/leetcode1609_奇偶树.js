@@ -43,3 +43,28 @@ var isEvenOddTree = function (root) {
   }
   return true;
 };
+
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var isEvenOddTree = function (root) {
+  let nodes = [];
+  return dfs(root, 0);
+  function dfs(root, level) {
+    if (!root) return true;
+    if (level % 2 === 0) {
+      // 偶数-奇-递减
+      if (root.val % 2 === 0 || (nodes[level] && nodes[level] >= root.val)) {
+        return false;
+      }
+    } else {
+      // 奇数-偶-递增
+      if (root.val % 2 === 1 || (nodes[level] && nodes[level] <= root.val)) {
+        return false;
+      }
+    }
+    nodes[level] = root.val;
+    return dfs(root.left, level + 1) && dfs(root.right, level + 1);
+  }
+};
